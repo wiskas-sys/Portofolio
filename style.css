@@ -155,7 +155,7 @@ strong {
 }
 
 .dot {
-  color: var(--line-strong);
+  color: var(--ink-3);
   padding-inline: 0.35em;
 }
 
@@ -358,7 +358,7 @@ strong {
 }
 
 .section-label span {
-  color: var(--line-strong);
+  color: var(--ink-2);
 }
 
 .section-lead {
@@ -511,7 +511,7 @@ strong {
   font-family: var(--font-mono);
   font-size: clamp(2.4rem, 8vw, 3.4rem);
   letter-spacing: 0.04em;
-  color: var(--line-strong);
+  color: var(--ink-2);
 }
 
 /* --------------------------------------------------------------------------
@@ -806,6 +806,10 @@ strong {
   font-weight: 500;
   color: var(--ink-2);
   transition: color var(--t-fast);
+  /* Target sentuh: teks link repo hanya setinggi glyph +1 (23px). Padding
+     ini menaikkannya ke sekitar 44px supaya mudah diklik di layar sentuh. */
+  padding: 11px 0;
+  margin-block: -7px;
 }
 
 .project-repo:hover {
