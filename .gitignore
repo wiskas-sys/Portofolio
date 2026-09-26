@@ -15,3 +15,6 @@ desktop.ini
 
 # Vercel (menyimpan projectId dan orgId lokal)
 .vercel
+
+.vercel
+.env*
