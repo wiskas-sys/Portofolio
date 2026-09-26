@@ -13,8 +13,6 @@ desktop.ini
 *.tmp
 ~$*
 
-# Vercel (menyimpan projectId dan orgId lokal)
-.vercel
-
+# Vercel (menyimpan projectId, orgId, dan OIDC token lokal)
 .vercel
 .env*
