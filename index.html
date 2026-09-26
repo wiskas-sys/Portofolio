@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wiweko Sinduadi — Portofolio | Calon Mahasiswa HI UNDIP</title>
+  <meta name="description" content="Portofolio Wiweko Sinduadi — siswa SMK Telkom Purwokerto, calon mahasiswa Hubungan Internasional Universitas Diponegoro.">
+
+  <!-- PLACEHOLDER: ganti deskripsi di meta tag ini jika konten berubah -->
+  <meta name="author" content="Wiweko Sinduadi">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>WS</text></svg>">
+</head>
+
+<!-- Menandai bahwa JS aktif -> dipakai style.css untuk animasi reveal (opsional & aman) -->
+<script>document.documentElement.classList.add('js');</script>
+
+<body>
+  <a class="skip-link" href="#beranda">Lompat ke konten utama</a>
+
+  <!-- ===================== HEADER / NAVIGASI ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#beranda">
+        <span class="brand-mark" aria-hidden="true">WS</span>
+        <span class="brand-name">Wiweko Sinduadi</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Buka menu navigasi">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#beranda" class="is-active">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#prestasi">Prestasi</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#kontak" class="nav-cta">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 1. BERANDA / HERO ===================== -->
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <!-- PLACEHOLDER: ganti subtitle/jurusan SMK di bawah -->
+          <p class="eyebrow">SMK Telkom Purwokerto <span class="dot">·</span> Calon Mahasiswa UNDIP</p>
+
+          <h1 class="hero-name">Wiweko Sinduadi</h1>
+
+          <!-- PLACEHOLDER: ganti tagline di bawah dengan kalimat singkat versi sendiri -->
+          <p class="hero-tagline">
+            Siswa SMK Telkom Purwokerto yang sedang menyiapkan diri masuk Jurusan
+            Hubungan Internasional Universitas Diponegoro — dengan minat pada
+            diplomasi, kebijakan global, dan isu lintas batas.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#tentang">Tentang saya</a>
+            <a class="btn btn-ghost" href="#kontak">Hubungi saya</a>
+          </div>
+
+          <dl class="hero-facts">
+            <!-- PLACEHOLDER: facts ini bisa ditambah/dihapus, tidak perlu ubah struktur lain -->
+            <div>
+              <dt>Sekolah</dt>
+              <dd>SMK Telkom Purwokerto</dd>
+            </div>
+            <div>
+              <dt>Target Studi</dt>
+              <dd>UNDIP — Hubungan Internasional</dd>
+            </div>
+            <div>
+              <dt>Fokus</dt>
+              <!-- PLACEHOLDER: ganti fokus belajar -->
+              <dd>Diplomasi &amp; Hubungan Global</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-media">
+          <!-- Untuk memakai foto asli: simpan gambarnya di assets/, aktifkan
+               baris <img> di bawah, lalu HAPUS <div class="avatar">.
+               Avatar inisial otomatis muncul kembali sebagai fallback bila
+               foto gagal dimuat. -->
+          <!-- <img class="avatar-img" src="assets/wiweko.jpg" alt="Foto profil Wiweko Sinduadi" onerror="this.remove()"> -->
+          <div class="avatar" role="img" aria-label="Inisial nama Wiweko Sinduadi">
+            <span class="avatar-initials">WS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. TENTANG SAYA ===================== -->
+    <section class="section" id="tentang">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">01 <span>/</span> Tentang Saya</p>
+          <h2>Tentang saya</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-body reveal">
+            <!-- PLACEHOLDER: SELURUH paragraf di bawah masih teks contoh.
+                 Ganti dengan bio asli 2–3 paragraf. -->
+            <p>
+              Saya adalah [<strong>nama lengkap</strong>], siswa kelas [<strong>kelas/jurusan</strong>]
+              di SMK Telkom Purwokerto. Saat ini saya sedang bersiap untuk
+              melanjutkan pendidikan ke Jurusan Hubungan Internasional, Universitas
+              Diponegoro.
+            </p>
+            <p>
+              Minat saya berada di bidang [<strong>diplomasi / kebijakan luar negeri /
+              ekonomi global / komunikasi internasional</strong>]. Hal tersebut
+              membuat saya tertarik pada bagaimana sebuah negara bernegosiasi,
+              bekerja sama, dan menyelesaikan konflik dengan cara yang damai.
+            </p>
+            <!-- PLACEHOLDER: hapus atau tambah paragraf di atas sesuka hati -->
+
+            <ul class="about-list">
+              <li>
+                <span class="about-list-key">Yang saya pelajari</span>
+                <!-- PLACEHOLDER: ganti list ini -->
+                <span class="about-list-val">Hubungan Internasional, Diplomasi, Sejarah Dunia Modern</span>
+              </li>
+              <li>
+                <span class="about-list-key">Yang saya kerjakan</span>
+                <span class="about-list-val">Prototipe aplikasi web, materi visual presentasi, sepak bola</span>
+              </li>
+              <li>
+                <span class="about-list-key">Yang saya cari</span>
+                <!-- PLACEHOLDER: ganti list ini -->
+                <span class="about-list-val">Kampus yang aktif berdiskusi dan ruang untuk berkembang</span>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="about-aside reveal">
+            <div class="card card-quiet">
+              <h3 class="card-title">Ringkasan</h3>
+              <ul class="tick-list">
+                <li>Siswa SMK Telkom Purwokerto</li>
+                <li>Peminat bidang Hubungan Internasional</li>
+                <li>Finalis HackNation 2026 — koordinator produksi tim PintarKuy</li>
+                <li>Juara 3 Turnamen Sepak Bola SSB (2020)</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. PRESTASI & ORGANISASI ===================== -->
+    <section class="section section-alt" id="prestasi">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">02 <span>/</span> Prestasi &amp; Organisasi</p>
+          <h2>Prestasi dan pengalaman</h2>
+          <p class="section-lead">
+            <!-- PLACEHOLDER: ubah kalimat pembuka section ini -->
+            Daftar lomba, organisasi, dan kegiatan yang pernah saya ikuti.
+            Bagian ini diisi otomatis dari data di <code>script.js</code>
+            (array <code>ACHIEVEMENTS</code>) — cara menambah entri baru
+            hanya dengan menyalin satu blok.
+          </p>
+        </header>
+
+        <ol class="timeline" id="achievements-list">
+          <!-- DIISI OLEH script.js dari array ACHIEVEMENTS -->
+        </ol>
+
+        <noscript>
+          <p class="noscript-note">
+            JavaScript tidak aktif, sehingga daftar prestasi/proyek di bawah tidak
+            dimuat. Aktifkan JavaScript atau lihat datanya langsung di file
+            <code>script.js</code>.
+          </p>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- ===================== 4. PROYEK / KARYA ===================== -->
+    <section class="section" id="proyek">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">03 <span>/</span> Proyek / Karya</p>
+          <h2>Yang saya kerjakan</h2>
+          <p class="section-lead">
+            Karya yang saya bangun sendiri — dari prototipe aplikasi web yang
+            ikut dilombakan, sampai buku digital yang saya terbitkan. Klik kartu
+            untuk membukanya langsung.
+          </p>
+        </header>
+
+        <div class="project-grid" id="projects-list">
+          <!-- DIISI OLEH script.js dari array PROJECTS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. SKILL ===================== -->
+    <section class="section section-alt" id="skill">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">04 <span>/</span> Skill</p>
+          <h2>Kemampuan saya</h2>
+          <p class="section-lead">
+            Kemampuan teknis, desain, dan pengalaman memimpin tim — semuanya
+            diambil dari proyek nyata, bukan daftar yang dibuat-buat.
+          </p>
+        </header>
+
+        <div class="skill-groups" id="skill-list">
+          <!-- DIISI OLEH script.js dari array SKILLS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. KONTAK ===================== -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label">05 <span>/</span> Kontak</p>
+          <h2>Mari terhubung</h2>
+          <p class="section-lead">
+            <!-- PLACEHOLDER: boleh dihapus atau diganti -->
+            Punya pertanyaan soal motivasi saya? Silakan hubungi lewat salah
+            satu kanal di bawah.
+          </p>
+        </header>
+
+        <ul class="contact-list">
+          <!-- PLACEHOLDER: link di bawah SUDAH terisi. Untuk menambah kanal baru,
+               salin satu blok <li class="contact-item"> lalu ganti href, ikon, dan teksnya. -->
+          <li class="contact-item reveal">
+            <a href="mailto:wsinduadi@gmail.com" class="contact-link" aria-label="Email, wsinduadi@gmail.com">
+              <span class="contact-icon" aria-hidden="true">
+                <!-- ikon email -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="14" rx="2.5"></rect>
+                  <path d="m3.8 7.2 7.1 5.1a2 2 0 0 0 2.2 0l7.1-5.1"></path>
+                </svg>
+              </span>
+              <span class="contact-body">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">wsinduadi@gmail.com</span>
+              </span>
+            </a>
+          </li>
+
+          <li class="contact-item reveal">
+            <a href="https://instagram.com/wiweko_synd" class="contact-link" target="_blank" rel="noopener" aria-label="Instagram, wiweko_synd">
+              <span class="contact-icon" aria-hidden="true">
+                <!-- ikon instagram -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="5.5"></rect>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <circle cx="17.1" cy="6.9" r="0.9" fill="currentColor" stroke="none"></circle>
+                </svg>
+              </span>
+              <span class="contact-body">
+                <span class="contact-label">Instagram</span>
+                <span class="contact-value">@wiweko_synd</span>
+              </span>
+            </a>
+          </li>
+
+          <li class="contact-item reveal">
+            <a href="https://github.com/wiskas-sys" class="contact-link" target="_blank" rel="noopener" aria-label="GitHub, wiskas-sys">
+              <span class="contact-icon" aria-hidden="true">
+                <!-- ikon github -->
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49l-.01-1.72c-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.85.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9l-.01 2.82c0 .27.18.59.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path>
+                </svg>
+              </span>
+              <span class="contact-body">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">wiskas-sys</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Wiweko Sinduadi</p>
+      <p class="footer-meta">
+        <!-- PLACEHOLDER: ubah teks footer -->
+        Dibuat sebagai portofolio pribadi <span class="dot">·</span> <span id="year"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
